@@ -1,6 +1,7 @@
 /^msgstr/ s/ss/s/g
 /^msgstr/ s/j/x/g
 /^msgstr/ s/ção\>/ción/g # tamén -zón (coração>corazón, adivinhação>adiviñación)
+/^msgstr/ s/ções\>/cións/g # non estaba no paper pq os dicionarios non teñen plurais
 /^msgstr/ s/ç/z/g
 /^msgstr/ s/nh/ñ/g
 /^msgstr/ s/dizer\>/dicir/g
@@ -30,6 +31,7 @@
 /^msgstr/ s/ório\>/orio/g
 /^msgstr/ s/ória\>/oria/g
 /^msgstr/ s/são\>/són/g # tamén -sión (ilusão>ilusión, brasão>brasón)
+/^msgstr/ s/sões\>/sións/g # non estaba no paper pq os dicionarios non teñen plurais
 /^msgstr/ s/rão\>/rón/g # tamén -rán (padrão>padrón, alcorão>alcorán)
 /^msgstr/ s/mão\>/món/g # tamén -mán (limão>limón, caimão>caimán)
 /^msgstr/ s/ião\>/ión/g # tamén -ián (ancião>ancián, anfitrião>anfitrión)
@@ -50,5 +52,4 @@
 #/^msgstr/ s/rv/rb/g # tamén rb (preservação>preservación, estorvar>estorbar)
 /^msgstr/ s/iver\>/ivir/g
 # End of original strings suggested by the paper for a dictionary.
-# Though dictionaries do not contain plurals, for example.
-/^msxstr/ s/msxstr/msgstr/ # replace back msxstr to msgstr (only 1st match)
+/^msgstr/ s/pré-/pre/g

@@ -1,6 +1,7 @@
 s/ss/s/g
 s/j/x/g
 s/ção\>/ción/g # tamén -zón (coração>corazón, adivinhação>adiviñación)
+s/ções\>/cións/g # non estaba no paper pq os dicionarios non teñen plurais
 s/ç/z/g
 s/nh/ñ/g
 s/dizer\>/dicir/g
@@ -30,6 +31,7 @@ s/ário\>/ario/g
 s/ório\>/orio/g
 s/ória\>/oria/g
 s/são\>/són/g # tamén -sión (ilusão>ilusión, brasão>brasón)
+s/sões\>/sións/g # non estaba no paper pq os dicionarios non teñen plurais
 s/rão\>/rón/g # tamén -rán (padrão>padrón, alcorão>alcorán)
 s/mão\>/món/g # tamén -mán (limão>limón, caimão>caimán)
 s/ião\>/ión/g # tamén -ián (ancião>ancián, anfitrião>anfitrión)
@@ -49,3 +51,5 @@ s/qua/cua/g
 s/xão\>/xón/g # tamén -xión (inflexão>inflexión, paixão>paixón)
 #s/rv/rb/g # tamén rb (preservação>preservación, estorvar>estorbar)
 s/iver\>/ivir/g
+# End of original strings suggested by the paper for a dictionary.
+s/pré-/pre/g
